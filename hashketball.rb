@@ -119,6 +119,6 @@ def game_hash
  end
 
 def num_points_scored(player_name)
-  #figure out how 
+  #figure out how
  game_hash[:home][:players][player_name][:points]
 end
