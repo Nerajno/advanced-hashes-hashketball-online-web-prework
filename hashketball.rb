@@ -121,3 +121,5 @@ def game_hash
 def num_points_scored(player_name)
  hash[:home][:players][player_name][:points].to_i
 end
+
+num_points_scored("Jason Terry")
