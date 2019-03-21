@@ -119,5 +119,5 @@ def game_hash
  end
 
 def num_points_scored(player_name)
-  hash[:home][:players][player_name][:points]
+ hash[:home][:players][player_name][:points].to_i
 end
