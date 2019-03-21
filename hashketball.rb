@@ -2,8 +2,7 @@ require 'pry'
 
 # Write your code here!
 def game_hash
-  hash = {
-     :home => {
+      =>  {
        :team_name => "Brooklyn Nets",
        :colors => ["Black", "White"],
        :players => {
@@ -121,5 +120,3 @@ def game_hash
 def num_points_scored(player_name)
  game_hash[:home][:players][player_name][:points]
 end
-
-num_points_scored("Jason Terry")
